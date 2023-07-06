@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* reset제작할 떄 */
+/* 구글폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{margin: 0; padding: 0;}
+
+body{
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  font-family: 'Hi Melody', cursive;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
 }
